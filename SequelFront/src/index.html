@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>PlotGPT</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.16.0/ace.js"></script>
+
+</head>
+<body>
+    <div class="form-container">
+        <label for="promptInput">Question</label>
+        <div class="center">            
+            <textarea placeholder="Can you select 'Sex' column and make a plot them with a pie chart and replace the axis labels with 'men' and 'woman' respectively" class="prompt-input" id="promptInput"></textarea>
+            <button class="submit">
+                Send
+            </button>
+        </div>
+    <div class="container">
+        <!-- 2 Columns Layout -->
+        <div class="col-2">
+            <div class="code-cont">
+                <label for="codeInput">Code Output</label>
+                <div id="codeBox"></div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="plot">
+                        <label for="">Plot</label>
+                        <img src="/home/yo/Paiton/Sequel/plot.png" alt="plot">
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="index.js"> </script>
+
+</body>
+</html>
