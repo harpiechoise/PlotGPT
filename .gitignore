@@ -1,0 +1,6 @@
+*.pyc
+*.md
+*.json
+*.png
+*/node_modules/*
+*.csv
